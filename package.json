@@ -1,0 +1,12 @@
+﻿{
+  "name": "fake-link-generator",
+  "version": "1.0.0",
+  "description": "Fake link generator with GPS tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
