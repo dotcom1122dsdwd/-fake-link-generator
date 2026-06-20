@@ -1,4 +1,3 @@
-cat > server.js << 'EOF'
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -218,4 +217,3 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log('🔗 ลิงก์ปลอมตัวอย่าง (อายุ 24 ชม.): ' + sampleLink);
   console.log('\n📤 แชร์ลิงก์นี้ให้คนอื่นกดเลย!');
 });
-EOF
